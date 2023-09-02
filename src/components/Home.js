@@ -165,7 +165,7 @@ and resounding success.`
               <div className="about-tab priority">
                 <div className="section-header text-center">
                   <h2 className="text-center ml-xl-5 rounded-font">
-                    Our Priorities
+                    Our Prioritie
                   </h2>
                 </div>
                 <div className="">
