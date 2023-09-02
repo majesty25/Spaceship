@@ -1,0 +1,28 @@
+.custom-truncate {
+    max-height: 4.5em; /* Adjust the height for desired number of lines */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .custom-truncate::after {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 20px; /* Space for the ellipsis */
+    background: linear-gradient(to right, transparent, white); /* Fade-out effect */
+  }
+
+.quote{
+    background-color: rgba(17, 7, 53, 0.91);
+    font-family: candara, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.priority{
+    background-color: white;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    color: rgb(22, 22, 22);
+    font-family: candara, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

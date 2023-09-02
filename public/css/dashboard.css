@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #b08968;
+  --title-color: #1a1a1a;
+  --text-color: #555555;
+  --body-color: #ffffff;
+  --button: #b0b0b0;
+  --button-hover: #919191;
+  --link-hover: #1a1a1a;
+  --link-active: #171515;
+  --scrollup-hover: #947154;
+  --scrollbar: #555555;
+  --white: #f7f7f7;
+  --gray: #c4c4c4;
+  --black: #171515;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+}
+
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header{
+    background-color: brown;
+}
+
+body{
+    background-color:;
+
+}
+
+#nav{
+    background-color: rgba(136, 38, 38, 0.658);
+    color: white;
+}
+
+#a{
+    color: white;
+    margin-left: 2em;
+    margin-left: 2em;
+    /* background-color: rgba(105, 45, 45, 0.432); */
+}
+
+#a:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+    color: white;
+}
+
+footer{
+    background-color:black;
+    color: white;
+}
+
+#icons{
+    font-size: 37px;
+    color: brown;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
+
+#social-medial{
+    display: flex;
+    flex-direction: row;
+}
+
+#link:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+}

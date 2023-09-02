@@ -1,0 +1,8 @@
+.SCALE-10{
+    transform: scale(1.11);
+}
+
+.SCALE-10:hover{
+    transform: scale(1.15);
+    transition: 1s;
+}

@@ -1,0 +1,40 @@
+.about-bannar{
+    height: 10em;
+    background-color: rgb(209, 209, 209);
+}
+
+.about-content{
+    font-size: 16.5px;
+    text-align: justify;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mission-img{
+    width: 70%;
+}
+
+.core-cap{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.core-img{
+    width: 70%;
+}
+
+.text-just{
+    text-align: justify;
+}
+
+
+.content-container {
+    max-height: 100px; /* Set a maximum height for the container */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .full-content {
+    display: none; /* Hide the full content initially */
+  }
+  

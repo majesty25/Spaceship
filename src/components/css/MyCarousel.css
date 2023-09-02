@@ -1,0 +1,52 @@
+/* MyCarousel.css */
+@import url('https://fonts.googleapis.com/css2?family=Arial+Rounded+MT+Bold&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,900;1,200;1,300;1,600&display=swap');
+
+
+.custom-carousel {
+    position: relative;
+  }
+  
+  .custom-carousel .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .custom-carousel .overlay h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  .custom-carousel .overlay h2 {
+    font-size: 1.5rem;
+  }
+  
+  .custom-carousel img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  
+  /* MyCarousel.css */
+.larger-heading {
+    font-size: 4rem; /* Adjust the size as needed */
+    font-family: 'Nunito', serif;
+  }
+
+.rounded-font{
+    font-family: 'Nunito', serif;
+
+}  
+  
