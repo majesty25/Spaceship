@@ -15,7 +15,7 @@ const executives = [
         portfolio: "Director of Communication"
     },
     {
-        name: "MISS. AUGUSTINA ENTSUA-MENSAH",
+        name: "MS. AUGUSTINA ENTSUA-MENSAH",
         image: "/img-team/Untitled-9.png",
         portfolio: "Secretary"
     },

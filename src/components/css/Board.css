@@ -1,3 +1,12 @@
 .description{
-    float: right;
+    clear: left;
+}
+
+.board-img{
+    float: left;
+    margin-right: 20px;
+}
+
+.board-sep{
+    border-bottom: 15px red;
 }

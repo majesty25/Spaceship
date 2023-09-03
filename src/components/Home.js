@@ -24,6 +24,25 @@ export default function Home() {
     setShowModal(false);
   };
 
+      // Replace 'https://api.example.com/data' with your desired URL
+      const apiUrl = 'https://nyankie.onrender.com';
+
+      fetch(apiUrl)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log('Data received:', data);
+          // Handle the data as needed
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+          // Handle errors
+        });
+
   const settings = {
     dots: true,
     infinite: true,
