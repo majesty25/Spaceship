@@ -29,7 +29,7 @@ export default function Board() {
                 srcset=""
               />
               {/* <div></div> */}
-              <h2 className="text-danger"> {boardMember.name}</h2>
+              <h3 className="text-danger"> {boardMember.name}</h3>
               <ReadMore
                 className="description col-sm-2"
                 text={boardMember.portfolio}
