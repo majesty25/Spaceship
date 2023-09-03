@@ -137,13 +137,13 @@ const Header = (props) => {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <img src="/images/pic21.png" alt="Slide 2" />
           <div className="overlay">
             <h1>MoLEX Foundation Africa</h1>
             <h2>Subheading 2</h2>
           </div>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
