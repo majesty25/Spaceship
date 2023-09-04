@@ -17,13 +17,13 @@ const board = [
     portfolio: `<p>
     <p class="about_description">Board Chair of MoLEX Foundation Africa, 
     She is Captain in Ghana Arm Forces and double as a professional Ear, Nose and Throat Specialist at 37 Military Hospital-Accra.
-   She was born and raised at Nyanfeku Ekroful in the Abura-Asebu-Kwamankese District in the central region of Ghana and she has been mentoring many youngs to aspire to greatness in the society</p> 
+   She was born and raised at Nyanfeku Ekroful in the Abura-Asebu-Kwamankese District in the central region of Ghana and she has been mentoring many young to aspire to greatness in the society</p> 
         `,
   },
   {
     name: "MS. IVY AMARTEY",
     image: "images/12.jpg",
-    portfolio: ` <p class="about_description">A board member of MoLEX Foundation Africa. Ms Ivy is the acting Central Regional Director of Department of Children. From Nyanfeku Ekroful in the Abura-Asebu-Kwamankese District in the central region of Ghana</p>
+    portfolio: ` <p class="about_description">A board member of MoLEX Foundation Africa. Ms. Amartey is the acting Central Regional Director of Department of Children. From Nyanfeku Ekroful in the Abura-Asebu-Kwamankese District in the central region of Ghana</p>
     <p>She is a professional social worker who is passionate about the vulnerable/ marginalized/ excluded expecially children.</p>
         `,
   },
