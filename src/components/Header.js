@@ -83,16 +83,16 @@ const Header = (props) => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto">
-              <Link to="/" className="nav-item nav-link active">
+              <a href="/" className="nav-item nav-link active">
                 Home
-              </Link>
-              <Link to="/about" className="nav-item nav-link">
+              </a>
+              <a href="/about" className="nav-item nav-link">
                 About
-              </Link>
+              </a>
 
-              <Link to="/gallery" className="nav-item nav-link">
+              <a href="/gallery" className="nav-item nav-link">
                 Gallery
-              </Link>
+              </a>
 
               <div className="nav-item dropdown">
                 <div                  
@@ -103,17 +103,17 @@ const Header = (props) => {
                 </div>
                 <div className="dropdown-menu">
                   {/* <!-- <a href="single.html" className="dropdown-item">Detail Page</a> --> */}
-                  <Link to="/executives" className="dropdown-item">
+                  <a href="/executives" className="dropdown-item">
                     The Executives
-                  </Link>
-                  <Link to="/board" className="dropdown-item">
+                  </a>
+                  <a href="/board" className="dropdown-item">
                     Board Members
-                  </Link>
+                  </a>
                 </div>
               </div>
-              <Link to="/contact" className="nav-item nav-link">
+              <a href="/contact" className="nav-item nav-link">
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>

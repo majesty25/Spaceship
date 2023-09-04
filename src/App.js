@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
