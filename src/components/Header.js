@@ -86,13 +86,13 @@ const Header = (props) => {
               <a href="/" className="nav-item nav-link active">
                 Home
               </a>
-              <a href="about" className="nav-item nav-link">
+              <Link to="/about" className="nav-item nav-link">
                 About
-              </a>
+              </Link>
 
-              <a href="/gallery" className="nav-item nav-link">
+              <Link to="/gallery" className="nav-item nav-link">
                 Gallery
-              </a>
+              </Link>
 
               <div className="nav-item dropdown">
                 <div                  
@@ -103,17 +103,17 @@ const Header = (props) => {
                 </div>
                 <div className="dropdown-menu">
                   {/* <!-- <a href="single.html" className="dropdown-item">Detail Page</a> --> */}
-                  <a href="/executives" className="dropdown-item">
+                  <Link to="/executives" className="dropdown-item">
                     The Executives
-                  </a>
-                  <a href="/board" className="dropdown-item">
+                  </Link>
+                  <Link to="/board" className="dropdown-item">
                     Board Members
-                  </a>
+                  </Link>
                 </div>
               </div>
-              <a href="/contact" className="nav-item nav-link">
+              <Link to="/contact" className="nav-item nav-link">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
