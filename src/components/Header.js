@@ -86,9 +86,9 @@ const Header = (props) => {
               <a href="/" className="nav-item nav-link active">
                 Home
               </a>
-              <Link to="/about" className="nav-item nav-link">
+              <a href="/about" className="nav-item nav-link">
                 About
-              </Link>
+              </a>
 
               <Link to="/gallery" className="nav-item nav-link">
                 Gallery
