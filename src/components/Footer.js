@@ -59,7 +59,7 @@ export default function Footer() {
                         <Link to="/about">About Us</Link>
                         <a href="">Contact Us</a>
                         <a href="">Upcoming Events</a>
-                        <a href="">Latest Blog</a>
+                        <a href="blog_post.html">Latest Blog</a>
                     </div>
                 </div>
 
