@@ -11,7 +11,7 @@ export default function Blog() {
   return (
     <div>
         <head>
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/212.png" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         </head>
       <Header headerTitle1="Board Members" /> {/*Header*/}
 
