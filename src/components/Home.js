@@ -388,7 +388,7 @@ and resounding success.`
           <div className="row align-items-center">
             <div className="col-lg-5">
               <div className="volunteer-form">
-                <form>
+                <div>
                   <div className="control-group">
                     <input
                       type="text"
@@ -413,11 +413,14 @@ and resounding success.`
                     ></textarea>
                   </div>
                   <div>
-                    <button className="btn btn-custom" type="submit">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSenQguFNiXfjtC_182jZf4SFuT0-aXWbAQqXkS1OVVo6Urehg/viewform?usp=sf_link">
+                  <button className="btn btn-custom" type="submit">
                       Become a volunteer
                     </button>
+                  </a>
+                    
                   </div>
-                </form>
+                </div>
               </div>
             </div>
             <div className="col-lg-7">
@@ -491,6 +494,11 @@ and resounding success.`
                 </div>
               </div>
             </div>
+            <a href="https://blog.molexfoundationafrica.org/" target="blank">
+            <div className="btn-outline-danger p-3 rounded">View more articles</div>
+            </a>
+                    
+
           </div>
         </div>
       </div>

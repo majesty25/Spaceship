@@ -90,6 +90,10 @@ const Header = (props) => {
                 About
               </a>
 
+              <a href="https://blog.molexfoundationafrica.org/" className="nav-item nav-link" target="blank">
+                Blog
+              </a>
+
               <Link to="/gallery" className="nav-item nav-link">
                 Gallery
               </Link>
