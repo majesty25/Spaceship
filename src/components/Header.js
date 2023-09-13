@@ -86,9 +86,9 @@ const Header = (props) => {
               <a href="/" className="nav-item nav-link active">
                 Home
               </a>
-              <a href="/about" className="nav-item nav-link">
+              <Link to="/about" className="nav-item nav-link">
                 About
-              </a>
+              </Link>
 
               <a href="https://blog.molexfoundationafrica.org/" className="nav-item nav-link" target="blank">
                 Blog
