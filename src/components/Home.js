@@ -5,13 +5,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button, Modal } from "react-bootstrap";
+import { Helmet } from 'react-helmet';
+
 import Header from "./Header";
 import Footer from "./Footer";
 import ReadMore from "./ReadMore";
+import Marquee from "./Marquee";
+import MetaTags from "./MetaTags";
 import items from "../data/program";
 import "./css/Home.css";
 
 export default function Home() {
+  const title = 'Dynamic Page Title';
+  const description = 'A dynamic description for the page.';
+  const imageUrl = '/path/to/dynamic-image.jpg'; 
+  const url = window.location.href; 
+
   const [showModal, setShowModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -24,24 +33,29 @@ export default function Home() {
     setShowModal(false);
   };
 
-      // Replace 'https://api.example.com/data' with your desired URL
-      const apiUrl = 'https://nyankie.onrender.com';
+  const [showWebModal, setShowWebModal] = useState(true);
 
-      fetch(apiUrl)
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          return response.json();
-        })
-        .then((data) => {
-          console.log('Data received:', data);
-          // Handle the data as needed
-        })
-        .catch((error) => {
-          console.error('Error:', error);
-          // Handle errors
-        });
+  const handleCloseWebModal = () => {
+    setShowWebModal(!true);
+  };
+
+  const apiUrl = "https://nyankie.onrender.com";
+
+  fetch(apiUrl)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      console.log("Data received:", data);
+      // Handle the data as needed
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      // Handle errors
+    });
 
   const settings = {
     dots: true,
@@ -110,8 +124,7 @@ conventional influencers, we seek to magnify our reach,
 leveraging the collective strength of individuals and entities
 who share in our vision of a more just and inclusive society.`;
 
-
-const longText2 = `Indeed, the path to success is not a serendipitous
+  const longText2 = `Indeed, the path to success is not a serendipitous
 occurrence, nor can it be traversed without dedicated and
 concerted efforts. The MoLEX Foundation stands as a shining
 exemplar of this truth, for its very essence is rooted in
@@ -157,24 +170,57 @@ Foundation Africa, through its unwavering dedication,
 ensures that the spark of potential is ignited, nurtured,
 and set ablaze—a beacon that brightens the lives of the
 youth and ushers in a future defined by hope, empowerment,
-and resounding success.`
+and resounding success.`;
 
   return (
     <div>
+      <Helmet>
+        {/* <title></title> */}
+        {/* <meta property="og:title" content="jwsreeeeeeeeeeeeeeeeeee"/> */}
+
+      </Helmet>
+      <MetaTags
+        title="fdfdfdff"
+        description={description}
+        imageUrl={imageUrl}
+        url={url}
+      />
       <Header
         headerTitle1="MoLEX Foundation Africa"
         headerTitle2="Giving Back to Society"
       />{" "}
+      <Marquee Content="SHEROS IN STEM" />
+
+      {/*MODAL START*/}
+      <Modal
+        show={showWebModal}
+        onHide={handleCloseModal}
+        dialogClassName="modal-l"
+      >
+        <Modal.Header>
+          <Modal.Title></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <img className="col-12" src="/img/webinar.jpg" />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button
+            className="btn-outline-danger"
+            variant=""
+            onClick={handleCloseWebModal}
+          >
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      {/*MODAL END*/}
       {/*Header*/}
       {/*Who we are*/}
       <div className="about container-lg mt-5 rounded-font">
         <div className="">
           <div className="col align-items-center">
             <div className="col-lg-12">
-              <div
-                id=""
-                className=" priority p-2 rounded text-justify"
-              >
+              <div id="" className=" priority p-2 rounded text-justify">
                 <ReadMore text={longText1} maxLength={850} />
               </div>
             </div>
@@ -370,7 +416,7 @@ and resounding success.`
                 <div className="section-header"></div>
                 <div className="donate-text">
                   <p className="text-justify">
-                  <ReadMore text={longText2} maxLength={850} />
+                    <ReadMore text={longText2} maxLength={850} />
                   </p>
                 </div>
               </div>
@@ -413,12 +459,11 @@ and resounding success.`
                     ></textarea>
                   </div>
                   <div>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSenQguFNiXfjtC_182jZf4SFuT0-aXWbAQqXkS1OVVo6Urehg/viewform?usp=sf_link">
-                  <button className="btn btn-custom" type="submit">
-                      Become a volunteer
-                    </button>
-                  </a>
-                    
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSenQguFNiXfjtC_182jZf4SFuT0-aXWbAQqXkS1OVVo6Urehg/viewform?usp=sf_link">
+                      <button className="btn btn-custom" type="submit">
+                        Become a volunteer
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -495,10 +540,10 @@ and resounding success.`
               </div>
             </div>
             <a href="https://blog.molexfoundationafrica.org/" target="blank">
-            <div className="btn-outline-danger p-3 rounded">View more articles</div>
+              <div className="btn-outline-danger p-3 rounded">
+                View more articles
+              </div>
             </a>
-                    
-
           </div>
         </div>
       </div>

@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button, Modal } from "react-bootstrap";
+import { Helmet } from 'react-helmet';
+
 import Header from "./Header";
 import Footer from "./Footer";
 import items from "../data/program";
@@ -97,6 +99,9 @@ promising tomorrow.`;
 
   return (
     <div>
+      <Helmet>
+        <title>qoieuy styw iy</title>
+      </Helmet>
       <Header headerTitle1="About Us" /> {/*Header*/}
       <h2 className="text-center">Learn About Us</h2>
       <div className="container py-3 text-justify bg-dark text-light rounded">

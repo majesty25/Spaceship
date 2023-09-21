@@ -23,7 +23,7 @@ export default function Footer() {
                         </p>
                         <p>
                             <i className="fa fa-phone-alt"></i>
-                            +233 554161195/ +233 509865106
+                            +233 24686 5534/ +233 54993 4817
                         </p>
                         <p>
                             <i className="fa fa-envelope"></i>

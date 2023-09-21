@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import "owl.carousel"; // Import Owl Carousel JS
 import "./css/MyCarousel.css";
 import "./css/Header.css";
+import "./css/PageHead.css"
 
 const Header = (props) => {
   return (
@@ -13,19 +14,29 @@ const Header = (props) => {
       <div className="top-bar d-none d-md-block">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-8">
+          <div className="col-md-9">
               <div className="top-bar-left">
+                <div className="text">
+                  <i className="fa fa-phone-alt"></i>
+                  <p>+233 24686 5534</p>
+                </div>
+                <div className="text">
+                  <i className="fa fa-phone-alt"></i>
+                  <p>+233 54993 4817</p>
+                </div>
+                {/*
                 <div className="text">
                   <i className="fa fa-phone-alt"></i>
                   <p>+233 242337839</p>
                 </div>
+                 */}
                 <div className="text">
                   <i className="fa fa-envelope"></i>
                   <p>info@molexfoundationafrica.org</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-3">
               <div className="top-bar-right">
                 <div className="social">
                   <a href="">
@@ -38,7 +49,7 @@ const Header = (props) => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/molex-africa2021/"
+                    href="https://www.linkedin.com/company/molex-foundation-africa/"
                     target="_blank"
                   >
                     <i className="fab fa-linkedin-in"></i>
@@ -55,6 +66,7 @@ const Header = (props) => {
           </div>
         </div>
       </div>
+
 
       <div className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
@@ -83,15 +95,15 @@ const Header = (props) => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto">
-              <a href="/" className="nav-item nav-link active">
+              <Link to="/" className="nav-item nav-link active">
                 Home
-              </a>
+              </Link>
               <Link to="/about" className="nav-item nav-link">
                 About
               </Link>
 
               <a href="https://blog.molexfoundationafrica.org/" className="nav-item nav-link" target="blank">
-                Blog
+                News & Articles
               </a>
 
               <Link to="/gallery" className="nav-item nav-link">
@@ -123,7 +135,7 @@ const Header = (props) => {
         </div>
       </div>
 
-      <Carousel
+      <div
         className="custom-carousel"
         showThumbs={false}
         showArrows={false}
@@ -148,7 +160,7 @@ const Header = (props) => {
             <h2>Subheading 2</h2>
           </div>
         </div> */}
-      </Carousel>
+      </div>
     </div>
   );
 };

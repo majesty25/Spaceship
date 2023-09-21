@@ -11,6 +11,7 @@ import Gallery from './components/Gallery';
 import Executives from './components/Executives';
 import Board from './components/Board';
 import Blog from './components/Blog';
+import PageHead from './components/PageHead';
 
 function App() {
   // const location = useLocation();
@@ -37,6 +38,7 @@ function App() {
         <Route path="/executives" element={<Executives />} />
         <Route path="/board" element={<Board />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/head" element={<PageHead />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>
