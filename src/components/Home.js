@@ -201,7 +201,7 @@ and resounding success.`;
           <Modal.Title></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img className="col-12" src="/img/webinar.jpg" />
+          <img className="col-12" src="/img/webinar2.jpg" />
         </Modal.Body>
         <Modal.Footer>
           <Button

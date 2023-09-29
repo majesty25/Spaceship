@@ -130,6 +130,9 @@ const Header = (props) => {
               <Link to="/contact" className="nav-item nav-link">
                 Contact
               </Link>
+              <Link to="/contact" className=" nav-link btn btn-danger">
+                Donate
+              </Link>
             </div>
           </div>
         </div>

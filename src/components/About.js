@@ -99,9 +99,7 @@ promising tomorrow.`;
 
   return (
     <div>
-      <Helmet>
-        <title>qoieuy styw iy</title>
-      </Helmet>
+
       <Header headerTitle1="About Us" /> {/*Header*/}
       <h2 className="text-center">Learn About Us</h2>
       <div className="container py-3 text-justify bg-dark text-light rounded">
