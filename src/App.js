@@ -12,6 +12,7 @@ import Executives from './components/Executives';
 import Board from './components/Board';
 import Blog from './components/Blog';
 import PageHead from './components/PageHead';
+import Donate from './components/Donate'
 
 function App() {
   // const location = useLocation();
@@ -39,6 +40,8 @@ function App() {
         <Route path="/board" element={<Board />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/head" element={<PageHead />} />
+        <Route path="/donate" element={<Donate />} />
+
         {/* Add more routes as needed */}
       </Routes>
     </Router>

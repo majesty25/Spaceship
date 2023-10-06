@@ -35,7 +35,7 @@ export default function Contact() {
                 <span className="d-flex flex-row flex-wrap align-items-start my-4">
                     <em className="mdi mdi-email-outline icon mx-2"></em>
                     <div className="d-flex flex-column align-items-start">
-                        <div className="head"> molexfoundation@gmail.com</div>
+                        <div className="head"> info@molexfoundationafrica.org</div>
                         <div className="text-small text-fade">Send us your query anytime!</div>
                     </div>
                 </span>
@@ -43,7 +43,7 @@ export default function Contact() {
                 <span className="d-flex flex-row flex-wrap align-items-center my-2">
                     <em className="mdi mdi-headphones icon mx-2"></em>
                     {/* <div className="d-flex flex-column align-items-start"> */}
-                        <div className="head">+233 554161195/ +233 509865106
+                        <div className="head">+233 24686 5534/ +233 54993 4817
                             <div className="text-small text-fade">Mon to Fri 8am - 6pm</div>
                         </div>
                 </span>
