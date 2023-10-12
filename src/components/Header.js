@@ -110,6 +110,10 @@ const Header = (props) => {
                 Gallery
               </Link>
 
+              <Link to="/projects" className="nav-item nav-link">
+                Projects
+              </Link>
+
               <div className="nav-item dropdown">
                 <div                  
                   className="nav-link dropdown-toggle"
@@ -130,9 +134,9 @@ const Header = (props) => {
               <Link to="/contact" className="nav-item nav-link">
                 Contact
               </Link>
-              <Link to="/donate" className=" nav-link btn btn-danger">
+              {/* <Link to="/donate" className=" nav-link btn btn-danger">
                 Donate
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

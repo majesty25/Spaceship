@@ -13,6 +13,7 @@ import Board from './components/Board';
 import Blog from './components/Blog';
 import PageHead from './components/PageHead';
 import Donate from './components/Donate'
+import ProjectList from './components/Projects';
 
 function App() {
   // const location = useLocation();
@@ -41,6 +42,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/head" element={<PageHead />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/projects" element={<ProjectList />} />
+
 
         {/* Add more routes as needed */}
       </Routes>
