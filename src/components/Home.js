@@ -84,7 +84,7 @@ export default function Home() {
   };
 
   const longText1 = `                <p className="rounded-font">
-  The MoLEX Foundation Africa stands as a stalwart beacon of
+  The MOLEX Foundation Africa stands as a stalwart beacon of
   dedicated effort, committed to fostering the growth and
   empowerment of children and young individuals, with a special
   emphasis on those who find themselves vulnerable and
@@ -126,13 +126,13 @@ who share in our vision of a more just and inclusive society.`;
 
   const longText2 = `Indeed, the path to success is not a serendipitous
 occurrence, nor can it be traversed without dedicated and
-concerted efforts. The MoLEX Foundation stands as a shining
+concerted efforts. The MOLEX Foundation stands as a shining
 exemplar of this truth, for its very essence is rooted in
 the unwavering belief that success is a journey that
 requires deliberate cultivation. <br />
 In a world where opportunities often remain concealed,
 particularly within marginalized and underserved areas, the
-MoLEX Foundation emerges as a beacon of enlightenment. Its
+MOLEX Foundation emerges as a beacon of enlightenment. Its
 noble mission is to illuminate the way toward success for
 the youth, especially those dwelling in the shadows of
 societal neglect. In such regions, a fog of ignorance often
@@ -141,7 +141,7 @@ other remains obscured. Financial constraints and a dearth
 of exposure to the transformative power of education
 conspire to tether these young souls to the fringes of
 life's journey. <br />
-Recognizing this stark reality, the MoLEX Foundation Africa
+Recognizing this stark reality, the MOLEX Foundation Africa
 has risen with purpose. Its commitment is resolute—to
 empower, to inspire, and to guide. Through a tapestry of
 modern and effective coaching and mentorship initiatives,
@@ -151,21 +151,21 @@ the foundation imparts the tools of growth, self-discovery,
 and resilience, enabling these aspiring souls to not only
 sculpt a brighter future for themselves but also to
 contribute to the betterment of society at large. <br />
-The ethos of the MoLEX Foundation resonates with the very
+The ethos of the MOLEX Foundation resonates with the very
 essence of transformation. It is a catalyst that propels
 young minds from the dim corridors of uncertainty into the
 luminous arena of possibility. Through the alchemy of
 coaching and mentorship, barriers are shattered, limitations
 are transcended, and the trajectory of life takes a positive
 and purposeful turn. <br />
-In this noble endeavor, the MoLEX Foundation Africa becomes
+In this noble endeavor, the MOLEX Foundation Africa becomes
 an architect of change, shaping futures and forging
 destinies. It stands as a guardian, a guide, and a partner
 on the journey toward success. As each young individual
 walks the path laid out by the foundation, they carry within
 them the torch of knowledge, illuminating not just their
 personal journey, but also collectively lighting the way for
-a society that stands poised for progress. The MoLEX
+a society that stands poised for progress. The MOLEX
 Foundation Africa, through its unwavering dedication,
 ensures that the spark of potential is ignited, nurtured,
 and set ablaze—a beacon that brightens the lives of the
@@ -180,19 +180,19 @@ and resounding success.`;
 
       </Helmet>
       <MetaTags
-        title="fdfdfdff"
+        // title="fdfdfdff"
         description={description}
         imageUrl={imageUrl}
         url={url}
       />
       <Header
-        headerTitle1="MoLEX Foundation Africa"
+        headerTitle1="MOLEX Foundation Africa"
         headerTitle2="Giving Back to Society"
       />{" "}
       <Marquee Content="SHEROS IN STEM" />
 
       {/*MODAL START*/}
-      <Modal
+      {/* <Modal
         show={showWebModal}
         onHide={handleCloseModal}
         dialogClassName="modal-l"
@@ -212,7 +212,7 @@ and resounding success.`;
             Close
           </Button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
       {/*MODAL END*/}
       {/*Header*/}
       {/*Who we are*/}
@@ -407,7 +407,7 @@ and resounding success.`;
       <div
         className="donate quote"
         data-parallax="scroll"
-        data-image-src="img/donate..jpg"
+        // data-image-src="img/donate..jpg"
       >
         <div className="container">
           <div className="row align-items-center">
@@ -428,7 +428,7 @@ and resounding success.`;
       <div
         className="volunteer"
         data-parallax="scroll"
-        data-image-src="images/pic1.jpg"
+        // data-image-src="images/pic1.jpg"
       >
         <div className="container">
           <div className="row align-items-center">

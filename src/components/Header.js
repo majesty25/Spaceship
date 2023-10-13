@@ -11,7 +11,7 @@ import "./css/PageHead.css"
 const Header = (props) => {
   return (
     <div>
-      <div className="top-bar d-none d-md-block">
+      <div className="top-bar d-none bg-dark d-md-block">
         <div className="container-fluid">
           <div className="row">
           <div className="col-md-9">
@@ -73,12 +73,12 @@ const Header = (props) => {
           <Link to="/">
           <img
             className="logo-img rounded mx-2"
-            src="img/logo.png"
+            src="img/logo0.jpg"
             alt=""
             srcset=""
           />
           <div href="index.html" className="navbar-brand rounded-font">
-            MoLEX
+            MOLEX
           </div>
           </Link>
  
@@ -143,13 +143,13 @@ const Header = (props) => {
         showStatus={false}
       >
         <div>
-          <img src="/images/pic21.png" alt="Slide 1" />
-          <div className="overlay">
+          <img src="/images/pic22.png" alt="Slide 1" />
+          <div className="overlay-p">
             <div className="carousel-text">
               <h3 className="text-warning larger-heading display-4">
-                {props.headerTitle1}
+                {/* {props.headerTitle1} */}
               </h3>
-              <h2 className="text-warning">{props.headerTitle2}</h2>
+              {/* <h2 className="text-warning">{props.headerTitle2}</h2> */}
             </div>
           </div>
         </div>
