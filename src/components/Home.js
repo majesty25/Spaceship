@@ -539,7 +539,7 @@ and resounding success.`;
                 </div>
               </div>
             </div>
-            <a href="https://blog.molexfoundationafrica.org/" target="blank">
+            <a href="https://post.molexfoundationafrica.org/" target="blank">
               <div className="btn-outline-danger p-3 rounded">
                 View more articles
               </div>
