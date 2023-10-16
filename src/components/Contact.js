@@ -12,7 +12,9 @@ export default function Contact() {
 
   return (
     <div>
-      <Header headerTitle1="Contact Us" /> {/*Header*/}
+      <Header headerTitle1="Contact Us" 
+      isContact="true"
+      active="active"/> 
 
       {/* <!-- Contact Start --> */}
 <div className="container-md mt-5">

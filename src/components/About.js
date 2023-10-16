@@ -100,13 +100,16 @@ promising tomorrow.`;
   return (
     <div>
       <Helmet>
-        <title>qoieuy styw iy</title>
       </Helmet>
-      <Header headerTitle1="About Us" /> {/*Header*/}
+      <Header 
+      headerTitle1="About Us"
+      isAbout="true"
+      active="active"
+
+      /> {/*Header*/}
       <h2 className="text-center">Learn About Us</h2>
       <div className="container py-3 text-justify bg-dark text-light rounded">
         <ReadMore text={longText} maxLength={850} />
-        {/* <button className="btn btn-link read-more-btn">Read More</button> */}{" "}
       </div>
       <div className="about">
         <div className="container">

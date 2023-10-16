@@ -95,24 +95,24 @@ const Header = (props) => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto">
-              <Link to="/" className="nav-item nav-link active">
+              <Link to="/" className={`nav-item nav-link ${props.isHome?props.active:''}`}>
                 Home
               </Link>
-              <Link to="/about" className="nav-item nav-link">
+              <Link to="/about" className={`nav-item nav-link ${props.isAbout?props.active:''}`}>
                 About
               </Link>
 
-              <a href="https://post.molexfoundationafrica.org/" className="nav-item nav-link" target="blank">
+              <a href="https://post.molexfoundationafrica.org/" className={`nav-item nav-link ${props.isArticle?props.active:''}`} target="blank">
                 News & Articles
               </a>
 
-              <Link to="/gallery" className="nav-item nav-link">
+              <Link to="/gallery" className={`nav-item nav-link ${props.isGallery?props.active:''}`}>
                 Gallery
               </Link>
 
               <div className="nav-item dropdown">
                 <div                  
-                  className="nav-link dropdown-toggle"
+                  className={`nav-item nav-link dropdown-toggle ${props.isPortfolio?props.active:''}`}
                   data-toggle="dropdown"
                 >
                   Portfolio
@@ -127,7 +127,7 @@ const Header = (props) => {
                   </Link>
                 </div>
               </div>
-              <Link to="/contact" className="nav-item nav-link">
+              <Link to="/contact" className={`nav-item nav-link ${props.isContact?props.active:''}`}>
                 Contact
               </Link>
             </div>

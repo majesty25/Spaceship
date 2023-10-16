@@ -13,7 +13,10 @@ export default function Board() {
 
   return (
     <div>
-      <Header headerTitle1="Board Members" /> {/*Header*/}
+      <Header headerTitle1="Board Members" 
+        isPortfolio="true"
+        active="active"
+      /> {/*Header*/}
       <div className="card HIDDEN">
       {board.map((boardMember, index) => (
         <div>

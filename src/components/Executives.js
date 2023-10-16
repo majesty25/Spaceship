@@ -37,7 +37,9 @@ export default function Executives() {
 
   return (
     <div>
-      <Header headerTitle1="Executives" /> {/*Header*/}
+      <Header headerTitle1="Executives"
+      isPortfolio="true"
+      active="active"/> {/*Header*/}
       {/* <!-- Team Start --> */}
       <div className="team">
         <div className="container">

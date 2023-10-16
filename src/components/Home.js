@@ -188,6 +188,8 @@ and resounding success.`;
       <Header
         headerTitle1="MOLEX Foundation Africa"
         headerTitle2="Giving Back to Society"
+        isHome="true"
+        active="active"
       />{" "}
       <Marquee Content="SHEROS IN STEM" />
 
@@ -531,7 +533,7 @@ and resounding success.`;
                 </div>
                 <div class="blog-text">
                   <h3>
-                    <a href="blog_post.html" target="_blank">
+                    <a href="https://post.molexfoundationafrica.org/blog/1" target="_blank">
                       Read More
                     </a>
                   </h3>

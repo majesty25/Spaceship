@@ -12,7 +12,9 @@ export default function Gallery() {
 
   return (
     <div>
-      <Header headerTitle1="Our Gallery" /> {/*Header*/}
+      <Header headerTitle1="Our Gallery"
+      isGallery="true"
+      active="active"/> {/*Header*/}
       
       <div className="event">
             <div className="container">
