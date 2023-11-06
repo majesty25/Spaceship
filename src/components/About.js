@@ -145,7 +145,7 @@ promising tomorrow.`;
                 <div className="tab-content">
                   <div
                     id="tab-content-2"
-                    className="container text-dark tab-pane active h5 text-justify"
+                    className="container text-light tab-pane active p-2 text-justify"
                   >
                     Molex Foundation Africa is committed to enriching lives
                     through the provision of life coaching, career guidance,
@@ -161,7 +161,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6 text-dark">
+                        <p className="h6 text-light">
                           Paving the way for equal opportunities across society,
                           allowing every individual to chase their dreams
                           uninhibited
@@ -173,7 +173,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6 text-dark">
+                        <p className="h6 text-light">
                           Coach girls and women to live beyond the cultural and
                           gender limitations.
                         </p>
@@ -184,7 +184,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6 text-dark">
+                        <p className="h6 text-light">
                           Sparking enthusiasm among students, particularly
                           girls, for Science, Technology, Engineering, and
                           Mathematics (STEM) fields
@@ -196,7 +196,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6  text-dark">
+                        <p className="h6  text-light">
                           Taking a stand against Sexual and Gender-Based
                           Violence, cultivating a society free from such harm.
                         </p>
@@ -207,7 +207,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6  text-dark">
+                        <p className="h6  text-light">
                           Educating the public to fortify resilience against
                           Climate Change challenges and actively engage in
                           mitigation and adaptation efforts.
@@ -219,7 +219,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6  text-dark">
+                        <p className="h6  text-light">
                           Cultivating transformative leaders imbued with potent
                           capabilities and values that reshape our society's
                           leadership landscape.
@@ -231,7 +231,7 @@ promising tomorrow.`;
                         <i className="fa fa-check p-3 fs-30 text-danger"></i>
                       </div>
                       <div className="service-text">
-                        <p className="h6  text-dark">
+                        <p className="h6  text-light">
                           Fostering a deep sense of responsibility towards our
                           environment, advocating for sustainable practices that
                           safeguard nature for future generations
@@ -243,7 +243,7 @@ promising tomorrow.`;
 
                   <div
                     id="tab-content-3"
-                    className="container text-dark tab-pane h6"
+                    className="container text-light tab-pane h6"
                   >
                     Molex Foundation Africa has been working diligently to
                     support children and young people, especially the vulnerable
@@ -265,11 +265,11 @@ promising tomorrow.`;
       </div>
       {/* <!-- Facts Start --> */}
       <div
-        className="facts container-fluid quote"
+        className="facts container-fluid quote align-center"
         data-parallax="scroll-"
         // data-image-src="/image/"
       >
-        <div className="container">
+        <div className="container-fluid">
         <h1 className="text-warning text-center">OUR CORE VALUES</h1>
 
           <div className="row justify-content-center">
