@@ -41,7 +41,7 @@ export default function Board() {
             </section>
             {/* <div className="board-sep"></div> */}
         </div>
-        <hr/>
+        {/* <hr/> */}
 
         </div>
 
