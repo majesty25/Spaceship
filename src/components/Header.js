@@ -101,6 +101,9 @@ const Header = (props) => {
               <Link to="/about" className={`nav-item nav-link ${props.isAbout?props.active:''}`}>
                 About
               </Link>
+              <a href="https://sites.google.com/view/shereosinstem/home" className={`nav-item nav-link ${props.isWebinar?props.active:''}`} target="blank">
+                Programs
+              </a>
 
               <a href="https://post.molexfoundationafrica.org/" className={`nav-item nav-link ${props.isArticle?props.active:''}`} target="blank">
                 News & Articles
@@ -143,7 +146,7 @@ const Header = (props) => {
         showStatus={false}
       >
         <div>
-          <img src="/images/pic22.png" alt="Slide 1" />
+          <img src={`/images/${props.showImage?'pic22.png':''}`} alt="Slide 1" />
           <div className="overlay-p">
             <div className="carousel-text">
               <h3 className="text-warning larger-heading display-4">

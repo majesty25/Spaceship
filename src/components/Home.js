@@ -190,6 +190,8 @@ and resounding success.`;
         headerTitle2="Giving Back to Society"
         isHome="true"
         active="active"
+        showImage={true}
+
       />{" "}
       <Marquee Content="SHEROS IN STEM" />
 

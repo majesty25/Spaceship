@@ -105,11 +105,13 @@ promising tomorrow.`;
       headerTitle1="About Us"
       isAbout="true"
       active="active"
+      // showImage={true}
+
 
       /> {/*Header*/}
-      <h2 className="text-center">Learn About Us</h2>
+      <h2 className="text-center mt-5">Learn About Us</h2>
       <div className="container py-3 text-justify bg-dark text-light rounded">
-        <ReadMore text={longText} maxLength={850} />
+        <ReadMore text={longText} maxLength={1300} />
       </div>
       <div className="about">
         <div className="container">

@@ -39,7 +39,10 @@ export default function Executives() {
     <div>
       <Header headerTitle1="Executives"
       isPortfolio="true"
-      active="active"/> {/*Header*/}
+      active="active"
+      showImage={false}
+
+      /> {/*Header*/}
       {/* <!-- Team Start --> */}
       <div className="team">
         <div className="container">

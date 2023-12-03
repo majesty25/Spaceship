@@ -16,6 +16,8 @@ export default function Board() {
       <Header headerTitle1="Board Members" 
         isPortfolio="true"
         active="active"
+        showImage={false}
+
       /> {/*Header*/}
       <div className="card HIDDEN">
       {board.map((boardMember, index) => (
