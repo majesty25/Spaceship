@@ -95,12 +95,15 @@ const Header = (props) => {
             id="navbarCollapse"
           >
             <div className="navbar-nav ml-auto">
-              <Link to="/" className={`nav-item nav-link ${props.isHome?props.active:''}`}>
+              {/* <Link to="/" className={`nav-item nav-link ${props.isHome?props.active:''}`}>
                 Home
-              </Link>
+              </Link> */}
               <Link to="/about" className={`nav-item nav-link ${props.isAbout?props.active:''}`}>
                 About
               </Link>
+              <a href="https://sites.google.com/view/shereosinstem/home" className={`nav-item nav-link ${props.isWebinar?props.active:''}`} target="blank">
+                Shereos
+              </a>
               <a href="https://sites.google.com/view/shereosinstem/home" className={`nav-item nav-link ${props.isWebinar?props.active:''}`} target="blank">
                 Programs
               </a>
