@@ -228,6 +228,7 @@ and resounding success.`;
                 <ReadMore text={longText1} maxLength={850} />
               </div>
             </div>
+            <img src="" />
 
             {/*OUR PRIOTIES START*/}
             <div className="col-lg-12 mt-4">
@@ -463,7 +464,7 @@ and resounding success.`;
                     ></textarea>
                   </div>
                   <div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSenQguFNiXfjtC_182jZf4SFuT0-aXWbAQqXkS1OVVo6Urehg/viewform?usp=sf_link">
+                    <a href="https://sites.google.com/view/join-molex/home">
                       <button className="btn btn-custom" type="submit">
                         Become a volunteer
                       </button>
