@@ -124,12 +124,12 @@ conventional influencers, we seek to magnify our reach,
 leveraging the collective strength of individuals and entities
 who share in our vision of a more just and inclusive society.`;
 
-  const longText2 = `Indeed, the path to success is not a serendipitous
+  const longText2 = `<p>Indeed, the path to success is not a serendipitous
 occurrence, nor can it be traversed without dedicated and
 concerted efforts. The MOLEX Foundation stands as a shining
 exemplar of this truth, for its very essence is rooted in
 the unwavering belief that success is a journey that
-requires deliberate cultivation. <br />
+requires deliberate cultivation. <p/><p>
 In a world where opportunities often remain concealed,
 particularly within marginalized and underserved areas, the
 MOLEX Foundation emerges as a beacon of enlightenment. Its
@@ -140,7 +140,7 @@ shrouds the future, and the road from one horizon to the
 other remains obscured. Financial constraints and a dearth
 of exposure to the transformative power of education
 conspire to tether these young souls to the fringes of
-life's journey. <br />
+life's journey. <p/><p>
 Recognizing this stark reality, the MOLEX Foundation Africa
 has risen with purpose. Its commitment is resolute—to
 empower, to inspire, and to guide. Through a tapestry of
@@ -150,14 +150,14 @@ within each young heart. By nurturing these potential gems,
 the foundation imparts the tools of growth, self-discovery,
 and resilience, enabling these aspiring souls to not only
 sculpt a brighter future for themselves but also to
-contribute to the betterment of society at large. <br />
+contribute to the betterment of society at large. <p/><p>
 The ethos of the MOLEX Foundation resonates with the very
 essence of transformation. It is a catalyst that propels
 young minds from the dim corridors of uncertainty into the
 luminous arena of possibility. Through the alchemy of
 coaching and mentorship, barriers are shattered, limitations
 are transcended, and the trajectory of life takes a positive
-and purposeful turn. <br />
+and purposeful turn. <p/>
 In this noble endeavor, the MOLEX Foundation Africa becomes
 an architect of change, shaping futures and forging
 destinies. It stands as a guardian, a guide, and a partner
