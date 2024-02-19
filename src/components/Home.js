@@ -193,7 +193,7 @@ and resounding success.`;
         showImage={true}
 
       />{" "}
-      <Marquee Content="SHEROS IN STEM" />
+      {/* <Marquee Content="SHEROS IN STEM" /> */}
 
       {/*MODAL START*/}
       {/* <Modal
