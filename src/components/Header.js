@@ -150,8 +150,8 @@ const Header = (props) => {
         showStatus={false}
       >
         <div>
-          <img src={`/images/${props.showImage?'vid.gif':''}`} alt="Slide 1" />
-          <div className="overlay-p">
+          <img src={`/img/${props.showImage?'banner.png':''}`} alt="Slide 1" />
+          <div className="overlay">
             <div className="carousel-text">
               <h3 className="text-warning larger-heading display-4">
                 {/* {props.headerTitle1} */}
